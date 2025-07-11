@@ -1,0 +1,42 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.paralax {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.bg1 {
+  background-image: url('Image1.jpg');  
+}
+
+.bg2 {
+  background-image: url('Image2.jpg');  
+}
+
+.black-block {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.center-text {
+  font-size: 5em;
+  text-align: center;
+  padding: 20px;
+}
